@@ -16,7 +16,7 @@
                 <li><a href="/">Main</a></li>
                 {{#if loggedIn}}
                 <li><a href="/dashboard">Dashboard</a></li>
-                <li><a href="#logout" id="logout">Logout</a></li>
+                <li><a href="#"><span id="logout">Logout</a></span></li>
                 {{else}}
                 <li> <a href="/login">Login</a></li>
                 {{/if}}
@@ -30,5 +30,9 @@
         © Terrence Chan 2021
     </footer>
 </body>
+
+{{#if loggedIn}}
+<script src="/js/logout.js"></script>
+{{/if}}
 
 </html>
