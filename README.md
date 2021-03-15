@@ -15,7 +15,7 @@ Demo of a blog with a CMS to create, edit, and delete posts!
 ## Installation
 Clone over repo from GitHub: https://github.com/TerrenceJChan/tech-blog
   
-Open the folder in the terminal, and make sure to install the app's necessary dependencies! To do this, use the command `npm i`  
+Open the folder in the terminal, and make sure to install the app's necessary dependencies! To do this, use the command `npm i`.  
 
 Create a file in the root directory named `.env`. Fill out your MySQL login credentials in it like the following:
 
@@ -25,7 +25,7 @@ DB_PW=ASecurePassword
 DB_NAME=techposts_db
 ```
 
-A schema and seeds file are provided. To set up the schema, use the MySQL CLI to give the command `source db/schema.sql`. `npm run seed` will populate the database with a sample selection of products and data.
+A schema and seed files are provided. To set up the schema, use the MySQL CLI to give the command `source db/schema.sql`. `npm run seed` will populate the database with a sample selection of users, posts, and comments.
 
 ## Deployment
 A live demo of the page can be seen on Heroku: https://damp-harbor-01262.herokuapp.com/
